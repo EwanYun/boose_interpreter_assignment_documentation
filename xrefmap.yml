@@ -1,0 +1,358 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: BOOSE_Interpreter
+  name: BOOSE_Interpreter
+  href: docs/BOOSE_Interpreter.html
+  commentId: N:BOOSE_Interpreter
+  fullName: BOOSE_Interpreter
+  nameWithType: BOOSE_Interpreter
+- uid: BOOSE_Interpreter.AppCanvas
+  name: AppCanvas
+  href: docs/BOOSE_Interpreter.AppCanvas.html
+  commentId: T:BOOSE_Interpreter.AppCanvas
+  fullName: BOOSE_Interpreter.AppCanvas
+  nameWithType: AppCanvas
+- uid: BOOSE_Interpreter.AppCanvas.#ctor
+  name: AppCanvas()
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas__ctor
+  commentId: M:BOOSE_Interpreter.AppCanvas.#ctor
+  name.vb: New()
+  fullName: BOOSE_Interpreter.AppCanvas.AppCanvas()
+  fullName.vb: BOOSE_Interpreter.AppCanvas.New()
+  nameWithType: AppCanvas.AppCanvas()
+  nameWithType.vb: AppCanvas.New()
+- uid: BOOSE_Interpreter.AppCanvas.#ctor*
+  name: AppCanvas
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas__ctor_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_Interpreter.AppCanvas.AppCanvas
+  fullName.vb: BOOSE_Interpreter.AppCanvas.New
+  nameWithType: AppCanvas.AppCanvas
+  nameWithType.vb: AppCanvas.New
+- uid: BOOSE_Interpreter.AppCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSE_Interpreter.AppCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSE_Interpreter.AppCanvas.Circle(int, bool)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.Circle(Integer, Boolean)
+  nameWithType: AppCanvas.Circle(int, bool)
+  nameWithType.vb: AppCanvas.Circle(Integer, Boolean)
+- uid: BOOSE_Interpreter.AppCanvas.Circle*
+  name: Circle
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Circle_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Circle
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Circle
+  nameWithType: AppCanvas.Circle
+- uid: BOOSE_Interpreter.AppCanvas.Clear
+  name: Clear()
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Clear
+  commentId: M:BOOSE_Interpreter.AppCanvas.Clear
+  fullName: BOOSE_Interpreter.AppCanvas.Clear()
+  nameWithType: AppCanvas.Clear()
+- uid: BOOSE_Interpreter.AppCanvas.Clear*
+  name: Clear
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Clear_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Clear
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Clear
+  nameWithType: AppCanvas.Clear
+- uid: BOOSE_Interpreter.AppCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSE_Interpreter.AppCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSE_Interpreter.AppCanvas.DrawTo(int, int)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.DrawTo(Integer, Integer)
+  nameWithType: AppCanvas.DrawTo(int, int)
+  nameWithType.vb: AppCanvas.DrawTo(Integer, Integer)
+- uid: BOOSE_Interpreter.AppCanvas.DrawTo*
+  name: DrawTo
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_DrawTo_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.DrawTo
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.DrawTo
+  nameWithType: AppCanvas.DrawTo
+- uid: BOOSE_Interpreter.AppCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSE_Interpreter.AppCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSE_Interpreter.AppCanvas.MoveTo(int, int)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.MoveTo(Integer, Integer)
+  nameWithType: AppCanvas.MoveTo(int, int)
+  nameWithType.vb: AppCanvas.MoveTo(Integer, Integer)
+- uid: BOOSE_Interpreter.AppCanvas.MoveTo*
+  name: MoveTo
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_MoveTo_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.MoveTo
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.MoveTo
+  nameWithType: AppCanvas.MoveTo
+- uid: BOOSE_Interpreter.AppCanvas.PenColour
+  name: PenColour
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_PenColour
+  commentId: P:BOOSE_Interpreter.AppCanvas.PenColour
+  fullName: BOOSE_Interpreter.AppCanvas.PenColour
+  nameWithType: AppCanvas.PenColour
+- uid: BOOSE_Interpreter.AppCanvas.PenColour*
+  name: PenColour
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_PenColour_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.PenColour
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.PenColour
+  nameWithType: AppCanvas.PenColour
+- uid: BOOSE_Interpreter.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSE_Interpreter.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSE_Interpreter.AppCanvas.Rect(int, int, bool)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: AppCanvas.Rect(int, int, bool)
+  nameWithType.vb: AppCanvas.Rect(Integer, Integer, Boolean)
+- uid: BOOSE_Interpreter.AppCanvas.Rect*
+  name: Rect
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Rect_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Rect
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Rect
+  nameWithType: AppCanvas.Rect
+- uid: BOOSE_Interpreter.AppCanvas.Reset
+  name: Reset()
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Reset
+  commentId: M:BOOSE_Interpreter.AppCanvas.Reset
+  fullName: BOOSE_Interpreter.AppCanvas.Reset()
+  nameWithType: AppCanvas.Reset()
+- uid: BOOSE_Interpreter.AppCanvas.Reset*
+  name: Reset
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Reset_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Reset
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Reset
+  nameWithType: AppCanvas.Reset
+- uid: BOOSE_Interpreter.AppCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Set_System_Int32_System_Int32_
+  commentId: M:BOOSE_Interpreter.AppCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSE_Interpreter.AppCanvas.Set(int, int)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.Set(Integer, Integer)
+  nameWithType: AppCanvas.Set(int, int)
+  nameWithType.vb: AppCanvas.Set(Integer, Integer)
+- uid: BOOSE_Interpreter.AppCanvas.Set*
+  name: Set
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Set_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Set
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Set
+  nameWithType: AppCanvas.Set
+- uid: BOOSE_Interpreter.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSE_Interpreter.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSE_Interpreter.AppCanvas.SetColour(int, int, int)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: AppCanvas.SetColour(int, int, int)
+  nameWithType.vb: AppCanvas.SetColour(Integer, Integer, Integer)
+- uid: BOOSE_Interpreter.AppCanvas.SetColour*
+  name: SetColour
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_SetColour_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.SetColour
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.SetColour
+  nameWithType: AppCanvas.SetColour
+- uid: BOOSE_Interpreter.AppCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSE_Interpreter.AppCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSE_Interpreter.AppCanvas.Tri(int, int)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.Tri(Integer, Integer)
+  nameWithType: AppCanvas.Tri(int, int)
+  nameWithType.vb: AppCanvas.Tri(Integer, Integer)
+- uid: BOOSE_Interpreter.AppCanvas.Tri*
+  name: Tri
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Tri_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Tri
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Tri
+  nameWithType: AppCanvas.Tri
+- uid: BOOSE_Interpreter.AppCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_WriteText_System_String_
+  commentId: M:BOOSE_Interpreter.AppCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSE_Interpreter.AppCanvas.WriteText(string)
+  fullName.vb: BOOSE_Interpreter.AppCanvas.WriteText(String)
+  nameWithType: AppCanvas.WriteText(string)
+  nameWithType.vb: AppCanvas.WriteText(String)
+- uid: BOOSE_Interpreter.AppCanvas.WriteText*
+  name: WriteText
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_WriteText_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.WriteText
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.WriteText
+  nameWithType: AppCanvas.WriteText
+- uid: BOOSE_Interpreter.AppCanvas.Xpos
+  name: Xpos
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Xpos
+  commentId: P:BOOSE_Interpreter.AppCanvas.Xpos
+  fullName: BOOSE_Interpreter.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: BOOSE_Interpreter.AppCanvas.Xpos*
+  name: Xpos
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Xpos_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Xpos
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: BOOSE_Interpreter.AppCanvas.Ypos
+  name: Ypos
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Ypos
+  commentId: P:BOOSE_Interpreter.AppCanvas.Ypos
+  fullName: BOOSE_Interpreter.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: BOOSE_Interpreter.AppCanvas.Ypos*
+  name: Ypos
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_Ypos_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.Ypos
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: BOOSE_Interpreter.AppCanvas.getBitmap
+  name: getBitmap()
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_getBitmap
+  commentId: M:BOOSE_Interpreter.AppCanvas.getBitmap
+  fullName: BOOSE_Interpreter.AppCanvas.getBitmap()
+  nameWithType: AppCanvas.getBitmap()
+- uid: BOOSE_Interpreter.AppCanvas.getBitmap*
+  name: getBitmap
+  href: docs/BOOSE_Interpreter.AppCanvas.html#BOOSE_Interpreter_AppCanvas_getBitmap_
+  commentId: Overload:BOOSE_Interpreter.AppCanvas.getBitmap
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCanvas.getBitmap
+  nameWithType: AppCanvas.getBitmap
+- uid: BOOSE_Interpreter.Form1
+  name: Form1
+  href: docs/BOOSE_Interpreter.Form1.html
+  commentId: T:BOOSE_Interpreter.Form1
+  fullName: BOOSE_Interpreter.Form1
+  nameWithType: Form1
+- uid: BOOSE_Interpreter.Form1.#ctor
+  name: Form1()
+  href: docs/BOOSE_Interpreter.Form1.html#BOOSE_Interpreter_Form1__ctor
+  commentId: M:BOOSE_Interpreter.Form1.#ctor
+  name.vb: New()
+  fullName: BOOSE_Interpreter.Form1.Form1()
+  fullName.vb: BOOSE_Interpreter.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: BOOSE_Interpreter.Form1.#ctor*
+  name: Form1
+  href: docs/BOOSE_Interpreter.Form1.html#BOOSE_Interpreter_Form1__ctor_
+  commentId: Overload:BOOSE_Interpreter.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_Interpreter.Form1.Form1
+  fullName.vb: BOOSE_Interpreter.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: BOOSE_Interpreter.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: docs/BOOSE_Interpreter.Form1.html#BOOSE_Interpreter_Form1_Dispose_System_Boolean_
+  commentId: M:BOOSE_Interpreter.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BOOSE_Interpreter.Form1.Dispose(bool)
+  fullName.vb: BOOSE_Interpreter.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: BOOSE_Interpreter.Form1.Dispose*
+  name: Dispose
+  href: docs/BOOSE_Interpreter.Form1.html#BOOSE_Interpreter_Form1_Dispose_
+  commentId: Overload:BOOSE_Interpreter.Form1.Dispose
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: BOOSE_Interpreter_Unit_Tests
+  name: BOOSE_Interpreter_Unit_Tests
+  href: docs/BOOSE_Interpreter_Unit_Tests.html
+  commentId: N:BOOSE_Interpreter_Unit_Tests
+  fullName: BOOSE_Interpreter_Unit_Tests
+  nameWithType: BOOSE_Interpreter_Unit_Tests
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests
+  name: AppCanvasTests
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html
+  commentId: T:BOOSE_Interpreter_Unit_Tests.AppCanvasTests
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests
+  nameWithType: AppCanvasTests
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_XPosition_Correct
+  name: DrawTo_XPosition_Correct()
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_DrawTo_XPosition_Correct
+  commentId: M:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_XPosition_Correct
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_XPosition_Correct()
+  nameWithType: AppCanvasTests.DrawTo_XPosition_Correct()
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_XPosition_Correct*
+  name: DrawTo_XPosition_Correct
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_DrawTo_XPosition_Correct_
+  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_XPosition_Correct
+  isSpec: "True"
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_XPosition_Correct
+  nameWithType: AppCanvasTests.DrawTo_XPosition_Correct
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_YPosition_Correct
+  name: DrawTo_YPosition_Correct()
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_DrawTo_YPosition_Correct
+  commentId: M:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_YPosition_Correct
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_YPosition_Correct()
+  nameWithType: AppCanvasTests.DrawTo_YPosition_Correct()
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_YPosition_Correct*
+  name: DrawTo_YPosition_Correct
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_DrawTo_YPosition_Correct_
+  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_YPosition_Correct
+  isSpec: "True"
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.DrawTo_YPosition_Correct
+  nameWithType: AppCanvasTests.DrawTo_YPosition_Correct
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_XPosition_Correct
+  name: MoveTo_XPosition_Correct()
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_MoveTo_XPosition_Correct
+  commentId: M:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_XPosition_Correct
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_XPosition_Correct()
+  nameWithType: AppCanvasTests.MoveTo_XPosition_Correct()
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_XPosition_Correct*
+  name: MoveTo_XPosition_Correct
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_MoveTo_XPosition_Correct_
+  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_XPosition_Correct
+  isSpec: "True"
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_XPosition_Correct
+  nameWithType: AppCanvasTests.MoveTo_XPosition_Correct
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_YPosition_Correct
+  name: MoveTo_YPosition_Correct()
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_MoveTo_YPosition_Correct
+  commentId: M:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_YPosition_Correct
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_YPosition_Correct()
+  nameWithType: AppCanvasTests.MoveTo_YPosition_Correct()
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_YPosition_Correct*
+  name: MoveTo_YPosition_Correct
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_MoveTo_YPosition_Correct_
+  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_YPosition_Correct
+  isSpec: "True"
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MoveTo_YPosition_Correct
+  nameWithType: AppCanvasTests.MoveTo_YPosition_Correct
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MultilineProgram_FinalPosition_Correct
+  name: MultilineProgram_FinalPosition_Correct()
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_MultilineProgram_FinalPosition_Correct
+  commentId: M:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MultilineProgram_FinalPosition_Correct
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MultilineProgram_FinalPosition_Correct()
+  nameWithType: AppCanvasTests.MultilineProgram_FinalPosition_Correct()
+- uid: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MultilineProgram_FinalPosition_Correct*
+  name: MultilineProgram_FinalPosition_Correct
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html#BOOSE_Interpreter_Unit_Tests_AppCanvasTests_MultilineProgram_FinalPosition_Correct_
+  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MultilineProgram_FinalPosition_Correct
+  isSpec: "True"
+  fullName: BOOSE_Interpreter_Unit_Tests.AppCanvasTests.MultilineProgram_FinalPosition_Correct
+  nameWithType: AppCanvasTests.MultilineProgram_FinalPosition_Correct
