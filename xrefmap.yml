@@ -238,6 +238,66 @@ references:
   isSpec: "True"
   fullName: BOOSE_Interpreter.AppCanvas.getBitmap
   nameWithType: AppCanvas.getBitmap
+- uid: BOOSE_Interpreter.AppCommandFactory
+  name: AppCommandFactory
+  href: docs/BOOSE_Interpreter.AppCommandFactory.html
+  commentId: T:BOOSE_Interpreter.AppCommandFactory
+  fullName: BOOSE_Interpreter.AppCommandFactory
+  nameWithType: AppCommandFactory
+- uid: BOOSE_Interpreter.AppCommandFactory.#ctor
+  name: AppCommandFactory()
+  href: docs/BOOSE_Interpreter.AppCommandFactory.html#BOOSE_Interpreter_AppCommandFactory__ctor
+  commentId: M:BOOSE_Interpreter.AppCommandFactory.#ctor
+  name.vb: New()
+  fullName: BOOSE_Interpreter.AppCommandFactory.AppCommandFactory()
+  fullName.vb: BOOSE_Interpreter.AppCommandFactory.New()
+  nameWithType: AppCommandFactory.AppCommandFactory()
+  nameWithType.vb: AppCommandFactory.New()
+- uid: BOOSE_Interpreter.AppCommandFactory.#ctor*
+  name: AppCommandFactory
+  href: docs/BOOSE_Interpreter.AppCommandFactory.html#BOOSE_Interpreter_AppCommandFactory__ctor_
+  commentId: Overload:BOOSE_Interpreter.AppCommandFactory.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_Interpreter.AppCommandFactory.AppCommandFactory
+  fullName.vb: BOOSE_Interpreter.AppCommandFactory.New
+  nameWithType: AppCommandFactory.AppCommandFactory
+  nameWithType.vb: AppCommandFactory.New
+- uid: BOOSE_Interpreter.AppCommandFactory.MakeCommand(System.String)
+  name: MakeCommand(string)
+  href: docs/BOOSE_Interpreter.AppCommandFactory.html#BOOSE_Interpreter_AppCommandFactory_MakeCommand_System_String_
+  commentId: M:BOOSE_Interpreter.AppCommandFactory.MakeCommand(System.String)
+  name.vb: MakeCommand(String)
+  fullName: BOOSE_Interpreter.AppCommandFactory.MakeCommand(string)
+  fullName.vb: BOOSE_Interpreter.AppCommandFactory.MakeCommand(String)
+  nameWithType: AppCommandFactory.MakeCommand(string)
+  nameWithType.vb: AppCommandFactory.MakeCommand(String)
+- uid: BOOSE_Interpreter.AppCommandFactory.MakeCommand*
+  name: MakeCommand
+  href: docs/BOOSE_Interpreter.AppCommandFactory.html#BOOSE_Interpreter_AppCommandFactory_MakeCommand_
+  commentId: Overload:BOOSE_Interpreter.AppCommandFactory.MakeCommand
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppCommandFactory.MakeCommand
+  nameWithType: AppCommandFactory.MakeCommand
+- uid: BOOSE_Interpreter.AppWrite
+  name: AppWrite
+  href: docs/BOOSE_Interpreter.AppWrite.html
+  commentId: T:BOOSE_Interpreter.AppWrite
+  fullName: BOOSE_Interpreter.AppWrite
+  nameWithType: AppWrite
+- uid: BOOSE_Interpreter.AppWrite.Execute
+  name: Execute()
+  href: docs/BOOSE_Interpreter.AppWrite.html#BOOSE_Interpreter_AppWrite_Execute
+  commentId: M:BOOSE_Interpreter.AppWrite.Execute
+  fullName: BOOSE_Interpreter.AppWrite.Execute()
+  nameWithType: AppWrite.Execute()
+- uid: BOOSE_Interpreter.AppWrite.Execute*
+  name: Execute
+  href: docs/BOOSE_Interpreter.AppWrite.html#BOOSE_Interpreter_AppWrite_Execute_
+  commentId: Overload:BOOSE_Interpreter.AppWrite.Execute
+  isSpec: "True"
+  fullName: BOOSE_Interpreter.AppWrite.Execute
+  nameWithType: AppWrite.Execute
 - uid: BOOSE_Interpreter.Form1
   name: Form1
   href: docs/BOOSE_Interpreter.Form1.html
