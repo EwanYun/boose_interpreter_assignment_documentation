@@ -1236,19 +1236,6 @@ references:
   isSpec: "True"
   fullName: BOOSE_Interpreter_Unit_Tests.AppIntTests.Constructor_NoRestrictions_CreatesSuccessfully
   nameWithType: AppIntTests.Constructor_NoRestrictions_CreatesSuccessfully
-- uid: BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  name: Execute_ExpressionAssignment_CalculatesCorrectly()
-  href: docs/BOOSE_Interpreter_Unit_Tests.AppIntTests.html#BOOSE_Interpreter_Unit_Tests_AppIntTests_Execute_ExpressionAssignment_CalculatesCorrectly
-  commentId: M:BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  fullName: BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly()
-  nameWithType: AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly()
-- uid: BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly*
-  name: Execute_ExpressionAssignment_CalculatesCorrectly
-  href: docs/BOOSE_Interpreter_Unit_Tests.AppIntTests.html#BOOSE_Interpreter_Unit_Tests_AppIntTests_Execute_ExpressionAssignment_CalculatesCorrectly_
-  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  isSpec: "True"
-  fullName: BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  nameWithType: AppIntTests.Execute_ExpressionAssignment_CalculatesCorrectly
 - uid: BOOSE_Interpreter_Unit_Tests.AppIntTests.Execute_InvalidValue_ThrowsException
   name: Execute_InvalidValue_ThrowsException()
   href: docs/BOOSE_Interpreter_Unit_Tests.AppIntTests.html#BOOSE_Interpreter_Unit_Tests_AppIntTests_Execute_InvalidValue_ThrowsException
@@ -1410,19 +1397,6 @@ references:
   isSpec: "True"
   fullName: BOOSE_Interpreter_Unit_Tests.AppRealTests.Constructor_NoRestrictions_CreatesSuccessfully
   nameWithType: AppRealTests.Constructor_NoRestrictions_CreatesSuccessfully
-- uid: BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  name: Execute_ExpressionAssignment_CalculatesCorrectly()
-  href: docs/BOOSE_Interpreter_Unit_Tests.AppRealTests.html#BOOSE_Interpreter_Unit_Tests_AppRealTests_Execute_ExpressionAssignment_CalculatesCorrectly
-  commentId: M:BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  fullName: BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly()
-  nameWithType: AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly()
-- uid: BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly*
-  name: Execute_ExpressionAssignment_CalculatesCorrectly
-  href: docs/BOOSE_Interpreter_Unit_Tests.AppRealTests.html#BOOSE_Interpreter_Unit_Tests_AppRealTests_Execute_ExpressionAssignment_CalculatesCorrectly_
-  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  isSpec: "True"
-  fullName: BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly
-  nameWithType: AppRealTests.Execute_ExpressionAssignment_CalculatesCorrectly
 - uid: BOOSE_Interpreter_Unit_Tests.AppRealTests.Execute_InvalidValue_ThrowsException
   name: Execute_InvalidValue_ThrowsException()
   href: docs/BOOSE_Interpreter_Unit_Tests.AppRealTests.html#BOOSE_Interpreter_Unit_Tests_AppRealTests_Execute_InvalidValue_ThrowsException
@@ -1507,19 +1481,19 @@ references:
   commentId: T:BOOSE_Interpreter_Unit_Tests.AppWhileTests
   fullName: BOOSE_Interpreter_Unit_Tests.AppWhileTests
   nameWithType: AppWhileTests
-- uid: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_SetupCorrectly
-  name: Compile_ValidCondition_SetupCorrectly()
-  href: docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.html#BOOSE_Interpreter_Unit_Tests_AppWhileTests_Compile_ValidCondition_SetupCorrectly
-  commentId: M:BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_SetupCorrectly
-  fullName: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_SetupCorrectly()
-  nameWithType: AppWhileTests.Compile_ValidCondition_SetupCorrectly()
-- uid: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_SetupCorrectly*
-  name: Compile_ValidCondition_SetupCorrectly
-  href: docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.html#BOOSE_Interpreter_Unit_Tests_AppWhileTests_Compile_ValidCondition_SetupCorrectly_
-  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_SetupCorrectly
+- uid: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_Correctly
+  name: Compile_ValidCondition_Correctly()
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.html#BOOSE_Interpreter_Unit_Tests_AppWhileTests_Compile_ValidCondition_Correctly
+  commentId: M:BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_Correctly
+  fullName: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_Correctly()
+  nameWithType: AppWhileTests.Compile_ValidCondition_Correctly()
+- uid: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_Correctly*
+  name: Compile_ValidCondition_Correctly
+  href: docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.html#BOOSE_Interpreter_Unit_Tests_AppWhileTests_Compile_ValidCondition_Correctly_
+  commentId: Overload:BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_Correctly
   isSpec: "True"
-  fullName: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_SetupCorrectly
-  nameWithType: AppWhileTests.Compile_ValidCondition_SetupCorrectly
+  fullName: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Compile_ValidCondition_Correctly
+  nameWithType: AppWhileTests.Compile_ValidCondition_Correctly
 - uid: BOOSE_Interpreter_Unit_Tests.AppWhileTests.Execute_TrueCondition_ContinuesExecution
   name: Execute_TrueCondition_ContinuesExecution()
   href: docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.html#BOOSE_Interpreter_Unit_Tests_AppWhileTests_Execute_TrueCondition_ContinuesExecution

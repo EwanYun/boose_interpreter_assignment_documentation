@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AppWhile | BOOSE Interpreter ">
       
-      <meta name="description" content="Implements a while loop control structure for the BOOSE interpreter. Inherits from AppCompoundCommand to handle conditional logic and program flow control.">
+      <meta name="description" content="Implements a while loop control structure for BOOSE interpreter. The while loop repeatedly executes a block of code as long as a specified condition evaluates to true.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -85,7 +85,7 @@
 
 
   <h1 id="BOOSE_Interpreter_AppWhile" data-uid="BOOSE_Interpreter.AppWhile" class="text-break">
-Class AppWhile  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class AppWhile  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,8 +93,8 @@ Class AppWhile  <a class="header-action link-secondary" title="View source" href
   <dl><dt>Assembly</dt><dd>BOOSE Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Implements a while loop control structure for the BOOSE interpreter.
-Inherits from AppCompoundCommand to handle conditional logic and program flow control.</p>
+  <div class="markdown summary"><p>Implements a while loop control structure for BOOSE interpreter.
+The while loop repeatedly executes a block of code as long as a specified condition evaluates to true.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -245,11 +245,6 @@ Inherits from AppCompoundCommand to handle conditional logic and program flow co
 
 
 
-  <h2 id="BOOSE_Interpreter_AppWhile_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The while loop repeatedly executes a block of code as long as a specified condition evaluates to true.
-This implementation follows the standard while loop semantics where the condition is evaluated before
-each iteration of the loop body.</p>
-</div>
 
 
   <h2 class="section" id="methods">Methods
@@ -260,10 +255,10 @@ each iteration of the loop body.</p>
 
   <h3 id="BOOSE_Interpreter_AppWhile_Compile" data-uid="BOOSE_Interpreter.AppWhile.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Compiles the while loop command, setting up necessary control structures and program flow information.</p>
+  <div class="markdown level1 summary"><p>Compiles the while loop command, setting up the control structure for the StoredProgram</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -279,15 +274,6 @@ each iteration of the loop body.</p>
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_AppWhile_Compile_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>During compilation, this method:</p>
-<ol>
-<li>Calls the base class compilation logic</li>
-<li>Sets the conditional type to while loop</li>
-<li>Pushes this command onto the program's control structure stack</li>
-<li>Records the current line number for loop control</li>
-</ol>
-</div>
 
 
 
@@ -296,10 +282,10 @@ each iteration of the loop body.</p>
 
   <h3 id="BOOSE_Interpreter_AppWhile_Execute" data-uid="BOOSE_Interpreter.AppWhile.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes the while loop command by evaluating the condition and controlling program flow.</p>
+  <div class="markdown level1 summary"><p>Executes the while loop command by evaluating the condition and checking whether to continue or end the loop.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -315,16 +301,6 @@ each iteration of the loop body.</p>
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_AppWhile_Execute_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The execution process:</p>
-<ol>
-<li>Evaluates the condition expression</li>
-<li>If the condition is an expression, evaluates it using the program's expression evaluator</li>
-<li>Converts the result to a boolean value</li>
-<li>If the condition is false, skips to the end of the loop block</li>
-<li>If the condition is true, continues to the next instruction (loop body)</li>
-</ol>
-</div>
 
 
 
@@ -333,7 +309,7 @@ each iteration of the loop body.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

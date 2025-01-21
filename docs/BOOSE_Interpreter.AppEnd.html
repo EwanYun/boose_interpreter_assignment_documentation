@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AppEnd | BOOSE Interpreter ">
       
-      <meta name="description" content="Represents the END statement in control structures for the BOOSE interpreter. Handles the compilation and execution of END statements that terminate control structures like WHILE and IF blocks.">
+      <meta name="description" content="Represents the END statement in control structures for BOOSE interpreter. Handles the compilation and execution of END statements that terminate control structures (WHILE and IF).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -85,7 +85,7 @@
 
 
   <h1 id="BOOSE_Interpreter_AppEnd" data-uid="BOOSE_Interpreter.AppEnd" class="text-break">
-Class AppEnd  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class AppEnd  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,9 +93,8 @@ Class AppEnd  <a class="header-action link-secondary" title="View source" href="
   <dl><dt>Assembly</dt><dd>BOOSE Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the END statement in control structures for the BOOSE interpreter.
-Handles the compilation and execution of END statements that terminate
-control structures like WHILE and IF blocks.</p>
+  <div class="markdown summary"><p>Represents the END statement in control structures for BOOSE interpreter.
+Handles the compilation and execution of END statements that terminate control structures (WHILE and IF).</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -246,11 +245,6 @@ control structures like WHILE and IF blocks.</p>
 
 
 
-  <h2 id="BOOSE_Interpreter_AppEnd_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This class manages the program flow at the end of control structures,
-determining whether to loop back (for WHILE), continue forward (for IF),
-or handle other control structure types.</p>
-</div>
 
 
   <h2 class="section" id="methods">Methods
@@ -261,11 +255,10 @@ or handle other control structure types.</p>
 
   <h3 id="BOOSE_Interpreter_AppEnd_Compile" data-uid="BOOSE_Interpreter.AppEnd.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Compiles the END statement by associating it with its corresponding
-control structure command and setting up line number references.</p>
+  <div class="markdown level1 summary"><p>Compiles the END statement by attaching it with its corresponding control structure command and setting up line number references.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -281,13 +274,6 @@ control structure command and setting up line number references.</p>
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_AppEnd_Compile_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>During compilation, this method:</p>
-<ol>
-<li>Retrieves the matching control structure command from the program stack</li>
-<li>Sets this END statement's line number as the end point for the control structure</li>
-</ol>
-</div>
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
@@ -302,11 +288,10 @@ control structure command and setting up line number references.</p>
 
   <h3 id="BOOSE_Interpreter_AppEnd_Execute" data-uid="BOOSE_Interpreter.AppEnd.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes the END statement by managing program flow based on the type
-of control structure being terminated.</p>
+  <div class="markdown level1 summary"><p>Executes the END statement by managing program flow based on the type of control structure being terminated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -322,23 +307,11 @@ of control structure being terminated.</p>
 
 
 
-  <h4 class="section" id="BOOSE_Interpreter_AppEnd_Execute_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The behavior varies by control structure type:</p>
-<ul>
-<li>WHILE: Returns to the while condition for re-evaluation</li>
-<li>IF: Continues to the next instruction</li>
-<li>FOR: Reserved for future implementation</li>
-</ul>
-</div>
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><span class="xref">StoredProgramException</span></dt>
-    <dd><p>Thrown when either:</p>
-<ul>
-<li>There is no corresponding control structure command</li>
-<li>The control structure type is invalid</li>
-</ul>
+    <dd><p>Thrown when there is no corresponding control structure command or the control structure type is invalid</p>
 </dd>
   </dl>
 
@@ -348,7 +321,7 @@ of control structure being terminated.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppEnd.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
