@@ -43,7 +43,7 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="../index.html">
             <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Interpreter">
             BOOSE Interpreter
           </a>
@@ -91,6 +91,13 @@
 Classes
 </h3>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppArray.html">AppArray</a></dt>
+      <dd><p>Represents an array structure in the BOOSE interpreter environment.
+Supports both integer and real (double) array types with operations for
+creating, accessing, and modifying array elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppCanvas.html">AppCanvas</a></dt>
       <dd><p>Implements ICanvas Interface for drawing commands</p>
 </dd>
@@ -101,8 +108,51 @@ Classes
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppCompoundCommand.html">AppCompoundCommand</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppEnd.html">AppEnd</a></dt>
+      <dd><p>Represents the END statement in control structures for the BOOSE interpreter.
+Handles the compilation and execution of END statements that terminate
+control structures like WHILE and IF blocks.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppInt.html">AppInt</a></dt>
+      <dd><p>Represents an integer variable in the BOOSE interpreter environment.
+Extends the base Int class to provide integer value storage and manipulation
+functionality without additional restrictions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppPeek.html">AppPeek</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppPoke.html">AppPoke</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppReal.html">AppReal</a></dt>
+      <dd><p>Represents a floating-point (real) number variable in the BOOSE interpreter environment.
+Extends the base Real class to provide floating-point value storage and manipulation
+functionality without variable declaration restrictions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppStoredProgram.html">AppStoredProgram</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE_Interpreter.AppWhile.html">AppWhile</a></dt>
+      <dd><p>Implements a while loop control structure for the BOOSE interpreter.
+Inherits from AppCompoundCommand to handle conditional logic and program flow control.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppWrite.html">AppWrite</a></dt>
-      <dd><p>Extends CommandOneParameter to execute the write command on the canvas.</p>
+      <dd><p>Extends CanvasCommand to execute the write command on the canvas.</p>
 </dd>
     </dl>
     <dl class="jumplist">

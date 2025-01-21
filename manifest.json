@@ -4,6 +4,16 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/BOOSE_Interpreter.AppCanvas.yml",
       "output": {
         ".html": {
@@ -18,6 +28,86 @@
       "output": {
         ".html": {
           "relative_path": "docs/BOOSE_Interpreter.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppCompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppPeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppPoke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter.AppWhile.html"
         }
       },
       "version": ""
@@ -54,10 +144,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppArrayTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.yml",
       "output": {
         ".html": {
           "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppCanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppEndTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppEndTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppIntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppIntTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppRealTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppWhileTests.html"
         }
       },
       "version": ""

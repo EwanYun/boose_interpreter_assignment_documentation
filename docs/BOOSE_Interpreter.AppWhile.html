@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppWrite | BOOSE Interpreter </title>
+      <title>Class AppWhile | BOOSE Interpreter </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppWrite | BOOSE Interpreter ">
+      <meta name="title" content="Class AppWhile | BOOSE Interpreter ">
       
-      <meta name="description" content="Extends CanvasCommand to execute the write command on the canvas.">
+      <meta name="description" content="Implements a while loop control structure for the BOOSE interpreter. Inherits from AppCompoundCommand to handle conditional logic and program flow control.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/new/main/apiSpec/new?filename=BOOSE_Interpreter_AppWrite.md&amp;value=---%0Auid%3A%20BOOSE_Interpreter.AppWrite%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/new/main/apiSpec/new?filename=BOOSE_Interpreter_AppWhile.md&amp;value=---%0Auid%3A%20BOOSE_Interpreter.AppWhile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,12 +80,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE_Interpreter.AppWrite">
+        <article data-uid="BOOSE_Interpreter.AppWhile">
 
 
 
-  <h1 id="BOOSE_Interpreter_AppWrite" data-uid="BOOSE_Interpreter.AppWrite" class="text-break">
-Class AppWrite  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Interpreter_AppWhile" data-uid="BOOSE_Interpreter.AppWhile" class="text-break">
+Class AppWhile  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,12 +93,13 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
   <dl><dt>Assembly</dt><dd>BOOSE Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Extends CanvasCommand to execute the write command on the canvas.</p>
+  <div class="markdown summary"><p>Implements a while loop control structure for the BOOSE interpreter.
+Inherits from AppCompoundCommand to handle conditional logic and program flow control.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppWrite : CanvasCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppWhile : AppCompoundCommand, ICommand</code></pre>
   </div>
 
 
@@ -109,8 +110,11 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><span class="xref">Command</span></div>
-      <div><span class="xref">CanvasCommand</span></div>
-      <div><span class="xref">AppWrite</span></div>
+      <div><span class="xref">Evaluation</span></div>
+      <div><span class="xref">Boolean</span></div>
+      <div><span class="xref">ConditionalCommand</span></div>
+      <div><a class="xref" href="BOOSE_Interpreter.AppCompoundCommand.html">AppCompoundCommand</a></div>
+      <div><span class="xref">AppWhile</span></div>
     </dd>
   </dl>
 
@@ -126,16 +130,61 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <a class="xref" href="BOOSE_Interpreter.AppCompoundCommand.html#BOOSE_Interpreter_AppCompoundCommand_CorrespondingCommand">AppCompoundCommand.CorrespondingCommand</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <a class="xref" href="BOOSE_Interpreter.AppCompoundCommand.html#BOOSE_Interpreter_AppCompoundCommand_CheckParameters_System_String___">AppCompoundCommand.CheckParameters(string[])</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <span class="xref">ConditionalCommand.endLineNumber</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <span class="xref">ConditionalCommand.EndLineNumber</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.Condition</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.LineNumber</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.CondType</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.ReturnLineNumber</span>
+    </div>
+    <div>
+      <span class="xref">Boolean.Restrictions()</span>
+    </div>
+    <div>
+      <span class="xref">Boolean.BoolValue</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
     </div>
     <div>
       <span class="xref">Command.program</span>
@@ -151,9 +200,6 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -199,33 +245,32 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <h2 id="BOOSE_Interpreter_AppWhile_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The while loop repeatedly executes a block of code as long as a specified condition evaluates to true.
+This implementation follows the standard while loop semantics where the condition is evaluated before
+each iteration of the loop body.</p>
+</div>
 
 
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="BOOSE_Interpreter_AppWrite_CheckParameters_" data-uid="BOOSE_Interpreter.AppWrite.CheckParameters*"></a>
+  <a id="BOOSE_Interpreter_AppWhile_Compile_" data-uid="BOOSE_Interpreter.AppWhile.Compile*"></a>
 
-  <h3 id="BOOSE_Interpreter_AppWrite_CheckParameters_System_String___" data-uid="BOOSE_Interpreter.AppWrite.CheckParameters(System.String[])">
-  CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_AppWhile_Compile" data-uid="BOOSE_Interpreter.AppWhile.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Validates the parameters for the write command.
-While write can accept any text, we should at least check for null.</p>
+  <div class="markdown level1 summary"><p>Compiles the while loop command, setting up necessary control structures and program flow information.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameter)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -234,18 +279,27 @@ While write can accept any text, we should at least check for null.</p>
 
 
 
+  <h4 class="section" id="BOOSE_Interpreter_AppWhile_Compile_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>During compilation, this method:</p>
+<ol>
+<li>Calls the base class compilation logic</li>
+<li>Sets the conditional type to while loop</li>
+<li>Pushes this command onto the program's control structure stack</li>
+<li>Records the current line number for loop control</li>
+</ol>
+</div>
 
 
 
 
-  <a id="BOOSE_Interpreter_AppWrite_Execute_" data-uid="BOOSE_Interpreter.AppWrite.Execute*"></a>
+  <a id="BOOSE_Interpreter_AppWhile_Execute_" data-uid="BOOSE_Interpreter.AppWhile.Execute*"></a>
 
-  <h3 id="BOOSE_Interpreter_AppWrite_Execute" data-uid="BOOSE_Interpreter.AppWrite.Execute">
+  <h3 id="BOOSE_Interpreter_AppWhile_Execute" data-uid="BOOSE_Interpreter.AppWhile.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes the ICanvas WriteText command, evaluating any expressions in the text. To be used to call AppCanvas' WriteText method</p>
+  <div class="markdown level1 summary"><p>Executes the while loop command by evaluating the condition and controlling program flow.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -261,6 +315,16 @@ While write can accept any text, we should at least check for null.</p>
 
 
 
+  <h4 class="section" id="BOOSE_Interpreter_AppWhile_Execute_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The execution process:</p>
+<ol>
+<li>Evaluates the condition expression</li>
+<li>If the condition is an expression, evaluates it using the program's expression evaluator</li>
+<li>Converts the result to a boolean value</li>
+<li>If the condition is false, skips to the end of the loop block</li>
+<li>If the condition is true, continues to the next instruction (loop body)</li>
+</ol>
+</div>
 
 
 
@@ -269,7 +333,7 @@ While write can accept any text, we should at least check for null.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWhile.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

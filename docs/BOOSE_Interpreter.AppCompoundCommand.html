@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AppWrite | BOOSE Interpreter </title>
+      <title>Class AppCompoundCommand | BOOSE Interpreter </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AppWrite | BOOSE Interpreter ">
+      <meta name="title" content="Class AppCompoundCommand | BOOSE Interpreter ">
       
-      <meta name="description" content="Extends CanvasCommand to execute the write command on the canvas.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/new/main/apiSpec/new?filename=BOOSE_Interpreter_AppWrite.md&amp;value=---%0Auid%3A%20BOOSE_Interpreter.AppWrite%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/new/main/apiSpec/new?filename=BOOSE_Interpreter_AppCompoundCommand.md&amp;value=---%0Auid%3A%20BOOSE_Interpreter.AppCompoundCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,12 +80,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE_Interpreter.AppWrite">
+        <article data-uid="BOOSE_Interpreter.AppCompoundCommand">
 
 
 
-  <h1 id="BOOSE_Interpreter_AppWrite" data-uid="BOOSE_Interpreter.AppWrite" class="text-break">
-Class AppWrite  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Interpreter_AppCompoundCommand" data-uid="BOOSE_Interpreter.AppCompoundCommand" class="text-break">
+Class AppCompoundCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppCompoundCommand.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,12 +93,11 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
   <dl><dt>Assembly</dt><dd>BOOSE Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Extends CanvasCommand to execute the write command on the canvas.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppWrite : CanvasCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppCompoundCommand : ConditionalCommand, ICommand</code></pre>
   </div>
 
 
@@ -109,8 +108,10 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><span class="xref">Command</span></div>
-      <div><span class="xref">CanvasCommand</span></div>
-      <div><span class="xref">AppWrite</span></div>
+      <div><span class="xref">Evaluation</span></div>
+      <div><span class="xref">Boolean</span></div>
+      <div><span class="xref">ConditionalCommand</span></div>
+      <div><span class="xref">AppCompoundCommand</span></div>
     </dd>
   </dl>
 
@@ -121,21 +122,70 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="BOOSE_Interpreter.AppEnd.html">AppEnd</a></div>
+      <div><a class="xref" href="BOOSE_Interpreter.AppWhile.html">AppWhile</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <span class="xref">ConditionalCommand.endLineNumber</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <span class="xref">ConditionalCommand.Execute()</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <span class="xref">ConditionalCommand.EndLineNumber</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <span class="xref">ConditionalCommand.Condition</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.LineNumber</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.CondType</span>
+    </div>
+    <div>
+      <span class="xref">ConditionalCommand.ReturnLineNumber</span>
+    </div>
+    <div>
+      <span class="xref">Boolean.Restrictions()</span>
+    </div>
+    <div>
+      <span class="xref">Boolean.BoolValue</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
     </div>
     <div>
       <span class="xref">Command.program</span>
@@ -151,9 +201,6 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -201,20 +248,83 @@ Class AppWrite  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="BOOSE_Interpreter_AppCompoundCommand__ctor_" data-uid="BOOSE_Interpreter.AppCompoundCommand.#ctor*"></a>
+
+  <h3 id="BOOSE_Interpreter_AppCompoundCommand__ctor" data-uid="BOOSE_Interpreter.AppCompoundCommand.#ctor">
+  AppCompoundCommand()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppCompoundCommand.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppCompoundCommand()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="BOOSE_Interpreter_AppCompoundCommand_CorrespondingCommand_" data-uid="BOOSE_Interpreter.AppCompoundCommand.CorrespondingCommand*"></a>
+
+  <h3 id="BOOSE_Interpreter_AppCompoundCommand_CorrespondingCommand" data-uid="BOOSE_Interpreter.AppCompoundCommand.CorrespondingCommand">
+  CorrespondingCommand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppCompoundCommand.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConditionalCommand CorrespondingCommand { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ConditionalCommand</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="BOOSE_Interpreter_AppWrite_CheckParameters_" data-uid="BOOSE_Interpreter.AppWrite.CheckParameters*"></a>
+  <a id="BOOSE_Interpreter_AppCompoundCommand_CheckParameters_" data-uid="BOOSE_Interpreter.AppCompoundCommand.CheckParameters*"></a>
 
-  <h3 id="BOOSE_Interpreter_AppWrite_CheckParameters_System_String___" data-uid="BOOSE_Interpreter.AppWrite.CheckParameters(System.String[])">
+  <h3 id="BOOSE_Interpreter_AppCompoundCommand_CheckParameters_System_String___" data-uid="BOOSE_Interpreter.AppCompoundCommand.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppCompoundCommand.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Validates the parameters for the write command.
-While write can accept any text, we should at least check for null.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -238,19 +348,18 @@ While write can accept any text, we should at least check for null.</p>
 
 
 
-  <a id="BOOSE_Interpreter_AppWrite_Execute_" data-uid="BOOSE_Interpreter.AppWrite.Execute*"></a>
+  <a id="BOOSE_Interpreter_AppCompoundCommand_Compile_" data-uid="BOOSE_Interpreter.AppCompoundCommand.Compile*"></a>
 
-  <h3 id="BOOSE_Interpreter_AppWrite_Execute" data-uid="BOOSE_Interpreter.AppWrite.Execute">
-  Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Interpreter_AppCompoundCommand_Compile" data-uid="BOOSE_Interpreter.AppCompoundCommand.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppCompoundCommand.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes the ICanvas WriteText command, evaluating any expressions in the text. To be used to call AppCanvas' WriteText method</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
 
 
@@ -269,7 +378,7 @@ While write can accept any text, we should at least check for null.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppWrite.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppCompoundCommand.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
