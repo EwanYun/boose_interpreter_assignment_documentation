@@ -104,12 +104,14 @@ creating, accessing, and modifying array elements.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppCommandFactory.html">AppCommandFactory</a></dt>
-      <dd><p>Factory class that extends CommandFactory and add or overwrite new commands.</p>
+      <dd><p>Factory class that extends CommandFactory to add or overwrite new commands.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppCompoundCommand.html">AppCompoundCommand</a></dt>
-      <dd></dd>
+      <dd><p>Base class for compound commands in the BOOSE interpreter that involve conditional logic and control flow.
+Examples include while loops and if statements.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppEnd.html">AppEnd</a></dt>
@@ -127,11 +129,15 @@ functionality without additional restrictions.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppPeek.html">AppPeek</a></dt>
-      <dd></dd>
+      <dd><p>Implements the PEEK command in the BOOSE interpreter, allowing values to be read
+from specific positions in an array. Extends AppArray to utilize array functionality.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppPoke.html">AppPoke</a></dt>
-      <dd></dd>
+      <dd><p>Implements the Poke command in the BOOSE interpreter, allowing values to be written
+to specific positions in an array. Extends AppArray to utilise array functionality.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppReal.html">AppReal</a></dt>
@@ -142,7 +148,9 @@ functionality without variable declaration restrictions.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppStoredProgram.html">AppStoredProgram</a></dt>
-      <dd></dd>
+      <dd><p>Custom implementation of the StoredProgram class that extends the base functionality
+by removing cycle limits and adding enhanced error handling.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE_Interpreter.AppWhile.html">AppWhile</a></dt>

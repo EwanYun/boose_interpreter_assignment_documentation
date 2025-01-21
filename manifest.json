@@ -184,6 +184,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppPeekTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppPeekTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppPokeTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppPokeTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/BOOSE_Interpreter_Unit_Tests.AppRealTests.yml",
       "output": {
         ".html": {

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AppPoke | BOOSE Interpreter ">
       
-      
+      <meta name="description" content="Implements the Poke command in the BOOSE interpreter, allowing values to be written to specific positions in an array. Extends AppArray to utilise array functionality.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -85,7 +85,7 @@
 
 
   <h1 id="BOOSE_Interpreter_AppPoke" data-uid="BOOSE_Interpreter.AppPoke" class="text-break">
-Class AppPoke  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class AppPoke  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,7 +93,9 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>BOOSE Interpreter.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Implements the Poke command in the BOOSE interpreter, allowing values to be written
+to specific positions in an array. Extends AppArray to utilise array functionality.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -257,10 +259,11 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSE_Interpreter_AppPoke_CheckParameters_System_String___" data-uid="BOOSE_Interpreter.AppPoke.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Validates the number of parameters provided for array operations.</p>
+  <div class="markdown level1 summary"><p>Overrides AppArray as it is not required for Poke command as parameter checking
+is handled in ProcessArrayParametersCompile.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -271,23 +274,18 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CommandException</span></dt>
-    <dd><p>Thrown when parameter count is invalid</p>
+    <dd><p>Array of parameters to be validated.</p>
 </dd>
   </dl>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -295,10 +293,10 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSE_Interpreter_AppPoke_Compile" data-uid="BOOSE_Interpreter.AppPoke.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Compiles the array declaration and initialises array properties.</p>
+  <div class="markdown level1 summary"><p>Compiles the Poke command by processing array parameters for writing values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -315,12 +313,6 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CommandException</span></dt>
-    <dd><p>Thrown when array parameters are invalid</p>
-</dd>
-  </dl>
 
 
 
@@ -328,10 +320,10 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSE_Interpreter_AppPoke_Execute" data-uid="BOOSE_Interpreter.AppPoke.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes array initialisation, creating either an integer or real array.</p>
+  <div class="markdown level1 summary"><p>Executes the Poke command by writing the specified value to the target array position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -355,10 +347,11 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSE_Interpreter_AppPoke_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE_Interpreter.AppPoke.Set(BOOSE.StoredProgram,System.String)">
   Set(StoredProgram, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets up a poke Command Object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -368,9 +361,11 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>Program</code> <span class="xref">StoredProgram</span></dt>
-    <dd></dd>
+    <dd><p>The StoredProgram instance that provides the execution context.</p>
+</dd>
     <dt><code>Params</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The parameter string containing the array name, index, and value to be written.</p>
+</dd>
   </dl>
 
 
@@ -388,7 +383,7 @@ Class AppPoke  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-EwanYun/blob/main/BOOSE Interpreter/AppPoke.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 
